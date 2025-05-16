@@ -805,51 +805,52 @@ ORDER BY
 
 ## Discovery
 
-- What did we learn?
+### What did we learn?
 
-We discovered that 
+Our analysis uncovered key insights into the UK’s most influential YouTube channels in 2024:
 
+1. **Top Subscriber Channels**: NoCopyrightSounds, Dan Rhodes, and DanTDM have the highest number of subscribers in the UK.
+2. **Most Active Uploaders**: GRM Daily, Manchester City, and Yogscast lead in total video uploads, indicating consistent publishing habits.
+3. **Highest View Counts**: DanTDM, Dan Rhodes, and Mister Max dominate in total views, reflecting strong audience engagement.
+4. **Genre Insight**: Channels focused on entertainment and music consistently attract high engagement, reinforcing their value for brands seeking broad digital reach.
 
-1. NoCopyrightSOunds, Dan Rhodes and DanTDM are the channnels with the most subscribers in the UK
-2. GRM Daily, Man City and Yogscast are the channels with the most videos uploaded
-3. DanTDM, Dan RHodes and Mister Max are the channels with the most views
-4. Entertainment channels are useful for broader reach, as the channels posting consistently on their platforms and generating the most engagement are focus on entertainment and music 
+---
 
+## Recommendations
 
+### What do we recommend based on the insights gathered?
 
+1. **Dan Rhodes** is the most strategic collaboration partner for maximizing visibility, given his top subscriber count and impressive engagement rates.
+2. While **GRM Daily**, **Man City**, and **Yogscast** publish frequently, their ROI potential appears limited relative to channels with larger, more engaged audiences — caution is advised when considering these for collaborations within current budget constraints.
+3. **Mister Max** is highly effective for campaigns focused on maximizing views, but **DanTDM** and **Dan Rhodes** offer stronger long-term value due to their loyal subscriber bases and consistent performance.
+4. The top three channels to prioritize for partnership are **Dan Rhodes**, **DanTDM**, and **NoCopyrightSounds**, given their sustained engagement and brand scalability.
 
-## Recommendations 
+---
 
-- What do you recommend based on the insights gathered? 
-  
-1. Dan Rhodes is the best YouTube channel to collaborate with if we want to maximize visbility because this channel has the most YouTube subscribers in the UK
-2. Although GRM Daily, Man City and Yogcasts are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
-3. Mister Max is the best YouTuber to collaborate with if we're interested in maximizing reach, but collaborating with DanTDM and Dan Rhodes may be better long-term options considering the fact that they both have large subscriber bases and are averaging significantly high number of views.
-4. The top 3 channels to form collaborations with are NoCopyrightSounds, DanTDM and Dan Rhodes based on this analysis, because they attract the most engagement on their channels consistently.
+## Potential ROI
 
+### What return can we expect from these collaborations?
 
-### Potential ROI 
-- What ROI do we expect if we take this course of action?
+1. A partnership with **Dan Rhodes** is projected to yield a net profit of **$1,065,000 per video**.
+2. An influencer campaign with **Mister Max** could generate a net profit of **$1,276,000**.
+3. Collaborating with **DanTDM** via product placement could result in **$484,000 per video**, while a broader influencer deal may bring in a one-off profit of **$404,000**.
+4. A campaign with **NoCopyrightSounds** could yield **$642,000 per video**, making it another strong candidate for ROI-positive collaboration.
 
-1. Setting up a collaboration deal with Dan Rhodes would make the client a net profit of $1,065,000 per video
-2. An influencer marketing contract with Mister Max can see the client generate a net profit of $1,276,000
-3. If we go with a product placement campaign with DanTDM, this could  generate the client approximately $484,000 per video. If we advance with an influencer marketing campaign deal instead, this would make the client a one-off net profit of $404,000.
-4. NoCopyrightSounds could profit the client $642,000 per video too (which is worth considering) 
+---
 
+## Action Plan
 
+### What is the proposed course of action?
 
+Based on our findings, **Dan Rhodes** emerges as the ideal influencer for a long-term strategic partnership to promote the client’s products.
 
-### Action plan
-- What course of action should we take and why?
+We will begin by aligning with the client's expectations for this collaboration. If early performance aligns with or exceeds milestones, we’ll explore additional partnerships with **DanTDM**, **Mister Max**, and **NoCopyrightSounds** in subsequent phases.
 
-Based on our analysis, we beieve the best channel to advance a long-term partnership deal with to promote the client's products is the Dan Rhodes channel. 
+### How will we implement the recommendations?
 
-We'll have conversations with the marketing client to forecast what they also expect from this collaboration. Once we observe we're hitting the expected milestones, we'll advance with potential partnerships with DanTDM, Mister Max and NoCopyrightSounds channels in the future.   
+1. Reach out to the content teams behind each channel, starting with **Dan Rhodes**.
+2. Negotiate influencer contracts that align with the campaign’s budget and strategic goals.
+3. Launch the campaigns and monitor performance against predefined KPIs such as reach, engagement, and conversions.
+4. Conduct post-campaign reviews, capturing key learnings, customer feedback, and audience responses to inform continuous improvement.
 
-- What steps do we take to implement the recommended decisions effectively?
-
-
-1. Reach out to the teams behind each of these channels, starting with Dan Rhodes
-2. Negotiate contracts within the budgets allocated to each marketing campaign
-3. Kick off the campaigns and track each of their performances against the KPIs
-4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences 
+---
