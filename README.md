@@ -59,7 +59,7 @@ This would allow the marketing team to make informed, confident decisions on whi
 
 # User Story
 
-> "As the Head of Marketing, I want a dashboard that analyzes UK YouTube data so I can identify top-performing creators based on actual audience engagement—not just follower count. This will help me ensure our influencer partnerships deliver maximum campaign impact."
+> "As the Head of Marketing, I want to identify the top YouTubers in the UK based on subscriber count, videos uploaded and views accumulated, so that I can decide on which channels would be best to run marketing campaigns with to generate a good ROI"
 
 # Data Source
 
