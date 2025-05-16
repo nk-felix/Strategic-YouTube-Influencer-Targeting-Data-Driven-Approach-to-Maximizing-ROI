@@ -814,7 +814,6 @@ Our analysis uncovered key insights into the UK’s most influential YouTube cha
 3. **Highest View Counts**: DanTDM, Dan Rhodes, and Mister Max dominate in total views, reflecting strong audience engagement.
 4. **Genre Insight**: Channels focused on entertainment and music consistently attract high engagement, reinforcing their value for brands seeking broad digital reach.
 
----
 
 ## Recommendations
 
@@ -825,7 +824,6 @@ Our analysis uncovered key insights into the UK’s most influential YouTube cha
 3. **Mister Max** is highly effective for campaigns focused on maximizing views, but **DanTDM** and **Dan Rhodes** offer stronger long-term value due to their loyal subscriber bases and consistent performance.
 4. The top three channels to prioritize for partnership are **Dan Rhodes**, **DanTDM**, and **NoCopyrightSounds**, given their sustained engagement and brand scalability.
 
----
 
 ## Potential ROI
 
@@ -836,7 +834,6 @@ Our analysis uncovered key insights into the UK’s most influential YouTube cha
 3. Collaborating with **DanTDM** via product placement could result in **$484,000 per video**, while a broader influencer deal may bring in a one-off profit of **$404,000**.
 4. A campaign with **NoCopyrightSounds** could yield **$642,000 per video**, making it another strong candidate for ROI-positive collaboration.
 
----
 
 ## Action Plan
 
@@ -852,5 +849,3 @@ We will begin by aligning with the client's expectations for this collaboration.
 2. Negotiate influencer contracts that align with the campaign’s budget and strategic goals.
 3. Launch the campaigns and monitor performance against predefined KPIs such as reach, engagement, and conversions.
 4. Conduct post-campaign reviews, capturing key learnings, customer feedback, and audience responses to inform continuous improvement.
-
----
