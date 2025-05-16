@@ -35,73 +35,72 @@
 
 
 
-# Objective
+# Objective 
 
-In today's competitive digital landscape, brands are constantly searching for the right voices to amplify their message. The Head of Marketing at a growing consumer brand faced a critical challenge:
+- What is the key pain point? 
 
-> "With a budget allocated for influencer marketing, how do we identify the right UK-based YouTubers in 2024 who will drive real engagement and ROI for our campaigns?"
+The Head of Marketing wants to find out who the top YouTubers are in 2024 to decide on which YouTubers would be best to run marketing campaigns throughout the rest of the year.
 
-## The Challenge
 
-YouTube is crowded, and not every creator with millions of subscribers guarantees high engagement or relevance. The Head of Marketing needed a data-backed way to sift through hundreds of UK YouTubers and uncover the few that would align with campaign goals.
+- What is the ideal solution? 
 
-## The Vision
+To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their 
+- subscriber count
+- total views
+- total videos, and
+- engagement metrics
 
-The ideal solution?  
-A Power BI dashboard that provides a clear, interactive view into:
+This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
 
-- Subscriber count  
-- Total views  
-- Number of videos uploaded  
-- Engagement performance (views per subscriber, average views per video)
+## User story 
 
-This would allow the marketing team to make informed, confident decisions on which influencers to partner with—balancing reach, consistency, and ROI.
+As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the UK . 
 
-# User Story
+This dashboard should allow me to identify the top performing channels based on metrics like subscriber base and average views. 
 
-> "As the Head of Marketing, I want to identify the top YouTubers in the UK based on subscriber count, videos uploaded and views accumulated, so that I can decide on which channels would be best to run marketing campaigns with to generate a good ROI"
+With this information, I can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is.
 
-# Data Source
 
-## What data is required?
+# Data source 
 
-To accurately assess YouTuber performance, the following data points were essential:
+- What data is needed to achieve our objective?
 
-- Channel name  
-- Total subscribers  
-- Total views  
-- Number of videos uploaded  
+We need data on the top UK YouTubers in 2024 that includes their 
+- channel names
+- total subscribers
+- total views
+- total videos uploaded
 
-## Where did it come from?
 
-We sourced the dataset from Kaggle, specifically the [Top 100 Social Media Influencers 2024 – Countrywise dataset](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download). This dataset was exported as an Excel file and served as the foundation for our analysis.
+
+- Where is the data coming from? 
+The data is sourced from Kaggle (an Excel extract), [see here to find it.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
+
 
 # Stages
 
-To bring this insight-driven tool to life, the work was broken into key phases:
+- Design
+- Developement
+- Testing
+- Analysis 
+ 
 
-1. Design  
-2. Development  
-3. Testing  
-4. Analysis  
 
-Each stage focused on creating a seamless, business-ready dashboard to empower marketing strategy.
+# Design 
 
-# Design
+## Dashboard components required 
+- What should the dashboard contain based on the requirements provided?
 
-## What should the dashboard answer?
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
-To meet the needs of marketing stakeholders, we identified six critical questions our dashboard should answer:
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
-1. Who are the top 10 YouTubers with the most subscribers?  
-2. Which 3 channels have uploaded the most content?  
-3. Which 3 channels have the highest total views?  
-4. Who has the highest average views per video?  
-5. Which channels have the best views per subscriber ratio?  
-6. Who shows the strongest engagement per video uploaded?
-
-By addressing these questions, the dashboard transforms raw data into strategic decisions.
-
+For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 ## Dashboard Mockup
 
 Before development, a mockup was created using Mokkup AI to visualize the final layout.
