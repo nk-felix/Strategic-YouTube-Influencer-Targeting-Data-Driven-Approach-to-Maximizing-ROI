@@ -570,10 +570,6 @@ ORDER BY
 
 ```
 
-#### Output
-
-![Most subsc](assets/images/youtubers_with_the_most_subs.png)
-
 ### 2. Youtubers with the most videos uploaded
 
 ### Calculation breakdown 
@@ -659,11 +655,6 @@ WHERE
 ORDER BY
     net_profit DESC;
 ```
-
-#### Output
-
-![Most videos](assets/images/youtubers_with_the_most_videos.png)
-
 
 ### 3.  Youtubers with the most views 
 
@@ -754,12 +745,6 @@ ORDER BY
     net_profit DESC;
 
 ```
-
-#### Output
-
-![Most views](assets/images/youtubers_with_the_most_views.png)
-
-
 
 ## Discovery
 
