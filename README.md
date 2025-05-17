@@ -42,15 +42,16 @@ To support this initiative, we developed a dashboard that highlights key insight
 - Total views
 - Total number of videos uploaded
 - Engagement metrics (e.g., average views per video, likes, comments)
+
 This dashboard enables the marketing team to make data-driven decisions when selecting YouTubers for collaborations, ensuring campaigns are targeted, impactful, and aligned with the audience reach and engagement levels of each creator.
 
 ## User story 
 
-As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the UK . 
+As the Head of Marketing, I need a dashboard that provides clear insights into the performance of YouTube channels in the UK.
 
-This dashboard should allow me to identify the top performing channels based on metrics like subscriber base and average views. 
+The goal is to identify which channels have the highest reach and engagement, using metrics such as subscriber count, total views, and average views per video.
 
-With this information, I can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is.
+These insights will help guide strategic decisions on influencer partnerships to ensure each marketing campaign delivers the strongest possible results.
 
 
 # Data source 
@@ -63,7 +64,7 @@ To carry out this analysis, we need data on the top UK YouTubers in 2024, includ
 - Total number of videos uploaded  
 
 The dataset was sourced from Kaggle in Excel format. You can access it at the following link:  
-[Top 100 Social Media Influencers 2024 - Countrywise (Kaggle)](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
+[Kaggle Dataset](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
 
 # Stages
@@ -201,7 +202,8 @@ FROM
 /*
 # 1. Create a view to store the transformed data
 # 2. Cast the extracted channel name as VARCHAR(100)
-# 3. Select the required columns from the top_uk_youtubers_2024 SQL table 
+# 3. Select the required columns
+	from the top_uk_youtubers_2024 SQL table 
 */
 
 -- 1.
@@ -209,7 +211,8 @@ CREATE VIEW view_uk_youtubers_2024 AS
 
 -- 2.
 SELECT
-    CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS VARCHAR(100)) AS channel_name, -- 2. 
+    CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS VARCHAR(100))
+	AS channel_name, -- 2. 
     total_subscribers,
     total_views,
     total_videos
@@ -230,7 +233,8 @@ Here are the data quality tests conducted:
 ## Row count check
 ```sql
 /*
-# Count the total number of records (or rows) are in the SQL view
+# Count the total number of records (or rows)
+	in the SQL view
 */
 
 SELECT
@@ -240,15 +244,12 @@ FROM
 
 ```
 
-![Row count check](assets/images/1_row_count_check.png)
-
-
-
 ## Column count check
 ### SQL query 
 ```sql
 /*
-# Count the total number of columns (or fields) are in the SQL view
+# Count the total number of columns (or fields)
+	in the SQL view
 */
 
 
@@ -320,7 +321,8 @@ This shows the Top UK Youtubers in 2024 so far.
 ```sql
 Total Subscribers (M) = 
 VAR million = 1000000
-VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR sumOfSubscribers =
+	SUM(view_uk_youtubers_2024[total_subscribers])
 VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
 
 RETURN totalSubscribers
@@ -331,7 +333,8 @@ RETURN totalSubscribers
 ```sql
 Total Views (B) = 
 VAR billion = 1000000000
-VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalViews =
+	SUM(view_uk_youtubers_2024[total_views])
 VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
 
 RETURN totalViews
@@ -341,7 +344,8 @@ RETURN totalViews
 ### 3. Total Videos
 ```sql
 Total Videos = 
-VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR totalVideos =
+	SUM(view_uk_youtubers_2024[total_videos])
 
 RETURN totalVideos
 
@@ -352,8 +356,10 @@ RETURN totalVideos
 Average Views per Video (M) = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
 VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
-VAR  avgViewsPerVideo = DIVIDE(sumOfTotalViews,sumOfTotalVideos, BLANK())
-VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
+VAR  avgViewsPerVideo =
+	DIVIDE(sumOfTotalViews,sumOfTotalVideos, BLANK())
+VAR finalAvgViewsPerVideo =
+	DIVIDE(avgViewsPerVideo, 1000000, BLANK())
 
 RETURN finalAvgViewsPerVideo 
 
@@ -365,7 +371,8 @@ RETURN finalAvgViewsPerVideo
 Subscriber Engagement Rate = 
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
 VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
-VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
+VAR subscriberEngRate =
+	DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
 
 RETURN subscriberEngRate 
 
@@ -377,7 +384,8 @@ RETURN subscriberEngRate
 Views Per Subscriber = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
-VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews, sumOfTotalSubscribers, BLANK())
+VAR viewsPerSubscriber =
+	DIVIDE(sumOfTotalViews, sumOfTotalSubscribers, BLANK())
 
 RETURN viewsPerSubscriber 
 
