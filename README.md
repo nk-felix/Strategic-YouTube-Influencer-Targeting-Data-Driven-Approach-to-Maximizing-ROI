@@ -36,20 +36,13 @@
 
 # Objective 
 
-- What is the key pain point? 
-
-The Head of Marketing wants to find out who the top YouTubers are in 2024 to decide on which YouTubers would be best to run marketing campaigns throughout the rest of the year.
-
-
-- What is the ideal solution? 
-
-To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their 
-- subscriber count
-- total views
-- total videos, and
-- engagement metrics
-
-This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
+The Head of Marketing is looking to identify the top-performing YouTubers in the UK for 2024 in order to determine the most strategic influencers to partner with for marketing campaigns throughout the year.
+To support this initiative, we developed a dashboard that highlights key insights into leading UK-based YouTube channels, including:
+- Subscriber count
+- Total views
+- Total number of videos uploaded
+- Engagement metrics (e.g., average views per video, likes, comments)
+This dashboard enables the marketing team to make data-driven decisions when selecting YouTubers for collaborations, ensuring campaigns are targeted, impactful, and aligned with the audience reach and engagement levels of each creator.
 
 ## User story 
 
@@ -62,18 +55,15 @@ With this information, I can make more informed decisions about which Youtubers 
 
 # Data source 
 
-- What data is needed to achieve our objective?
+To carry out this analysis, we need data on the top UK YouTubers in 2024, including:
 
-We need data on the top UK YouTubers in 2024 that includes their 
-- channel names
-- total subscribers
-- total views
-- total videos uploaded
+- Channel names  
+- Total subscribers  
+- Total views  
+- Total number of videos uploaded  
 
-
-
-- Where is the data coming from? 
-The data is sourced from Kaggle (an Excel extract), [see here to find it.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
+The dataset was sourced from Kaggle in Excel format. You can access it at the following link:  
+[Top 100 Social Media Influencers 2024 - Countrywise (Kaggle)](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
 
 # Stages
@@ -88,7 +78,6 @@ The data is sourced from Kaggle (an Excel extract), [see here to find it.](https
 # Design 
 
 ## Dashboard components required 
-- What should the dashboard contain based on the requirements provided?
 
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
@@ -118,8 +107,6 @@ For now, these are some of the questions we need to answer, this may change as w
 
 ## Pseudocode
 
-- What's the general approach in creating this solution from start to finish?
-
 1. Get the data
 2. Explore the data in Excel
 3. Load the data into SQL Server
@@ -132,7 +119,7 @@ For now, these are some of the questions we need to answer, this may change as w
 
 ## Data exploration notes
 
-This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc  
+This is the stage where you have a scan of what's in the data, errors, inconsistencies, bugs, weird and corrupted characters, etc  
 
 
 - What are your initial observations with this dataset? What's caught your attention so far? 
@@ -147,7 +134,6 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 
 ## Data cleaning 
-- What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
 
 The aim is to refine our dataset to ensure it is structured and ready for analysis. 
 
@@ -175,7 +161,7 @@ And here is a tabular representation of the expected schema for the clean data:
 
 
 
-- What steps are needed to clean and shape the data into the desired format?
+- Steps are needed to clean and shape the data into the desired format
 
 1. Remove unnecessary columns by only selecting the ones you need
 2. Extract Youtube channel names from the first column
@@ -273,10 +259,6 @@ FROM
 WHERE
     TABLE_NAME = 'view_uk_youtubers_2024'
 ```
-### Output 
-![Column count check](assets/images/2_column_count_check.png)
-
-
 
 ## Data type check
 ### SQL query 
@@ -294,9 +276,6 @@ FROM
 WHERE
     TABLE_NAME = 'view_uk_youtubers_2024';
 ```
-### Output
-![Data type check](assets/images/3_data_type_check.png)
-
 
 ## Duplicate count check
 ### SQL query 
@@ -322,8 +301,6 @@ GROUP BY
 HAVING
     COUNT(*) > 1;
 ```
-### Output
-![Duplicate count check](assets/images/4_duplicate_records_check.png)
 
 # Visualization 
 
