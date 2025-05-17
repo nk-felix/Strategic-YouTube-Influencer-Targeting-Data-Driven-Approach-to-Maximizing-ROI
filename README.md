@@ -10,7 +10,6 @@
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-  - [Mockup](#mockup)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
@@ -101,23 +100,6 @@ To understand what it should contain, we need to figure out what questions we ne
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
-## Dashboard Mockup
-
-Before development, a mockup was created using Mokkup AI to visualize the final layout.
-
-### Potential Visuals Included:
-
-- Table for sortable metrics  
-- Treemap to highlight relative performance  
-- Scorecards for KPI highlights  
-- Horizontal bar charts for quick comparisons  
-
-The goal was to ensure that any stakeholder—technical or non-technical—could explore the data and extract business value at a glance. 
-
-
-
-
-![Dashboard-Mockup](assets/images/dashboard_mockup.png)
 
 
 ## Tools 
